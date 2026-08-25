@@ -1,9 +1,16 @@
-// console.log("My to do list is working!");
-function addtask(){
-let taskinput=document.getElementById("taskinput");
-let task=taskinput.value;
-let li=document.createElement("li");
-li.textContent=task;
-document.getElementById("tasklist").appendChild(li);
-taskinput.value="";
+function addTask() {
+    let input = document.getElementById("taskInput");
+    let task = input.value;
+
+    // if (task === "") {
+    //     alert("Please enter a task!");
+    //     return;
+    // }
+
+    let li = document.createElement("li");
+    li.innerText = task;
+
+    document.getElementById("taskList").appendChild(li);
+
+    input.value = "";
 }
