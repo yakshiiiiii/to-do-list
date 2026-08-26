@@ -1,12 +1,21 @@
 body{
-    background-image:url("to do list background.jpg");
+    background-image:url("todo.jpg");
     background-size: cover;
     text-align: center;
 
 }
 h1{
-    color:rgb(14, 14, 15);
+    color:lightcoral;
+    font-style: oblique;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
 }
+h3{
+    color: lightslategray;
+}
+
+
 button{
     color: rgb(19, 18, 18);
+
 }
